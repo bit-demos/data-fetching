@@ -1,0 +1,19 @@
+---
+description: A hook for getting books.
+labels: ['hook', 'react', 'typescript']
+---
+
+Hooks example:
+
+The hook returns for items for managaing the API calls:
+
+- getBooks- the function for getting books from an API
+- books - the result of the books API call
+- isLoading - true while the getBooks function is waiting to get data
+- error - holds any errors returned by the API call
+
+Usage of the hook:
+
+```js
+const [getBooks, books] = useBooks();
+```
