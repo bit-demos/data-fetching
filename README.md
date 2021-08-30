@@ -1,33 +1,38 @@
-# Welcome to your Bit Workspace
+# Figma embeds in your Bit Components
 
-To get started straight away run `bit start` and open [localhost:3000](http://localhost:3000). It may take a while to build the first time you run this command as it is building the whole User Interface for your development environment.
+Example components with Figma embeds so Designers and Developers can work side by side with live updates to desings, the possibility to zoom in and out and clicking the link to take you right to the Figma file so you can properly inspect the Deign.
+
+<img width="1917" alt="CleanShot 2021-08-19 at 18 01 24@2x" src="https://user-images.githubusercontent.com/13063165/130102696-e6986fb3-79fa-423c-9519-ab4e63e47ed8.png">
+
+Components are hosted [here](https://bit.dev/learn-bit-react/data-fetching)
+
+If you would like to import(clone) the project to take it for a test run make sure you have [bit installed](https://harmony-docs.bit.dev/getting-started/installing-bit).
+
+```bash
+npm i -g @teambit/bvm
+bvm install
+```
+
+Note: You can also use git to clone this project and test it out. However if you want to use this as a base project that you can then export to your own remote scope use the method below.
+
+Create an empty workspace. (skip this step if you want to import the components into an already created workspace)
+
+```bash
+bit new react my-workspace --empty
+```
+
+Use the `bit import` command to import all components into your workspace. This is similar to cloning a project.
+
+```bash
+bit import "learn-bit-react.data-fetching/*"
+```
+
+Copy the `workspace.jsonc` file from this repository and replace the one in your workspace. This will ensure you have the correct dependencies and environments set.
+
+Start the dev server
 
 ```bash
 bit start
 ```
 
-## What's included
-
-- **workspace.jsonc**
-
-This is the main configuration file of your bit workspace. Here you can modify the workspace name and icon as well as default directory and scope. It is where dependencies are found when you install anything. It is also where you register aspects, bit extensions as well as apply the environments for your components. This workspace has been setup so that all components use the React env. However you can create other components and apply other envs to them such as node, html, angular and aspect envs.
-
-- **.bitmap**
-
-This is an auto-generated file and includes the mapping of your components. There is one component included here. In order to remove this component you can run the following command.
-
-
-- **Demo Components**
-
-A folder (unless the --empty flag was used) containing demo components are included in this workspace. These components are used to demonstrate the different features of Bit. If you would like to remove these components you can run the following command.
-
-```jsx
-bit remove "ui/*" --delete files
-```
-
-This removes the components from the bitmap as well as removes the files.
-
-
-- **.gitignore**
-
-Ignoring any files from version control
+You should now see all the ecommerce components on [localhost:3000](http://localhost:3000)
