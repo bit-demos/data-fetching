@@ -2,7 +2,7 @@
 
 Example on how to use a hook to fetch data in Bit.
 
-<img width="816" alt="CleanShot 2021-08-30 at 16 12 48@2x" src="https://user-images.githubusercontent.com/13063165/131353374-532a933e-a2e3-4564-ae9b-a714d78dab7e.png">
+https://user-images.githubusercontent.com/13063165/131359221-ccf3f9d1-a0be-4831-841f-9e2d287a84f3.mp4
 
 
 Components are hosted [here](https://bit.dev/learn-bit-react/data-fetching)
