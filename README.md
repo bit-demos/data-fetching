@@ -1,8 +1,9 @@
-# Figma embeds in your Bit Components
+# Data Fetching in Bit
 
-Example components with Figma embeds so Designers and Developers can work side by side with live updates to desings, the possibility to zoom in and out and clicking the link to take you right to the Figma file so you can properly inspect the Deign.
+Example on how to use a hook to fetch data in Bit.
 
-<img width="1917" alt="CleanShot 2021-08-19 at 18 01 24@2x" src="https://user-images.githubusercontent.com/13063165/130102696-e6986fb3-79fa-423c-9519-ab4e63e47ed8.png">
+<img width="816" alt="CleanShot 2021-08-30 at 16 12 48@2x" src="https://user-images.githubusercontent.com/13063165/131353374-532a933e-a2e3-4564-ae9b-a714d78dab7e.png">
+
 
 Components are hosted [here](https://bit.dev/learn-bit-react/data-fetching)
 
